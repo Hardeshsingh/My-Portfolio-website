@@ -15,7 +15,7 @@
 
 
 <header class="header">
-    <a href="#" class="logo">HARDESH.zone</a>
+    <a href="https://hardeshzone.netlify.app/" class="logo">HARDESH.zone</a>
     <nav class="navbar">
         <a href="#home" class="active">Home</a>
         <a href="#about">About</a>
@@ -125,7 +125,7 @@
 <section class="contact" id="contact">
     <h2 class="heading">Contact <span> Me!</span></h2>
     
-    <form action="contact.php" method="POST">
+    <form id="myForm" action="#" >
         <div class="input-box">
         <input type="text" placeholder="Full Name">
         <input type="mail" placeholder="Email Address">
@@ -137,9 +137,16 @@
     <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
     <input type="submit" value="Send Message" class="btn">
     </form>
+    <script>
+        document.getElementById("myForm").addEventListener("submit", function(event) {
+          event.preventDefault(); 
+          this.reset();
+        });
+      </script>
+      
 </section>
 
-<footer class="footer">
+<footer class="footer" >
     <div class="footer-text">
         <p>Copyright &copy; 2023 by HARDESH.zone | All Rights Reserved</p>
     </div>
