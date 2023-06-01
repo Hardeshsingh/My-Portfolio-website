@@ -2,7 +2,7 @@
 window.onscroll = () => {
 
 let header = document.querySelector('.header');
-header.classList.toggle('sticky', window.scrollY > 100);
+header.classList.toggle('sticky', window.scrollY > 110);
 
 };
 const sections = document.querySelectorAll('section');
@@ -22,7 +22,7 @@ function updateActiveNavLink() {
 }
 
 function toggleStickyHeader() {
-  header.classList.toggle('sticky', window.scrollY > 100);
+  header.classList.toggle('sticky', window.scrollY > 110);
 }
 
 window.addEventListener('scroll', () => {
@@ -46,7 +46,7 @@ ScrollReveal({
      reset: true,
      distance: '80px',
      duration: 2000,
-     delay: 200 
+     delay: 180
     
     });
 
