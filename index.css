@@ -374,12 +374,17 @@ box-shadow: 0 .1rem .5rem var(--shadow-color);
 }
 
 .footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 2rem 7%;
-    background: var(--main-color);
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 2rem 7%;
+        background: var(--main-color);
+        box-sizing: border-box !important;
+        padding: 2rem 7%;
+        display: flex;
+        align-items: center;
+        position: absolute; 
+        width: 100vw;
+        margin-left: -7%;
 }
 
 .footer-text p {
