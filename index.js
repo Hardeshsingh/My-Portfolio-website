@@ -2,9 +2,22 @@
 window.onscroll = () => {
 
 let header = document.querySelector('.header');
-header.classList.toggle('sticky', window.scrollY > 110);
+header.classList.toggle('sticky', window.scrollY > 100);
+
+menuIcon.classList.remove('bx-x');
+navbar.classList.remove('active');
 
 };
+
+let menuIcon = document.querySelector('#menu-icon');
+  let navbar = document.querySelector('.navbar');
+
+  menuIcon.onclick = () => {
+    menuIcon.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
+
+  };
+
 const sections = document.querySelectorAll('section');
 const navLinks = document.querySelectorAll('header nav a');
 const header = document.querySelector('.header');
@@ -46,7 +59,7 @@ ScrollReveal({
      reset: true,
      distance: '80px',
      duration: 2000,
-     delay: 150
+     delay: 120
     
     });
 
