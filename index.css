@@ -503,7 +503,7 @@
         }
 
         .about-img img{
-            width: 250vw;
+            width: 25vw;
             margin-top: -2rem;
         }
         .projects{
@@ -646,7 +646,7 @@
     }
 
     .about-img img{
-        width: 70vw;
+        width: 25vw;
         margin-top: -2rem;
     }
 
@@ -700,7 +700,7 @@
             transform: rotate(180deg) translate(-130px, -335px); 
         }
         .about-img img {
-            width: 35vw;
+            width: 20vw;
         }
 
         .contact form .input-box input{
@@ -710,8 +710,9 @@
 
     @media (max-width: 365px){
         .about-img img {
-            width: 90vw;
+            width: 15vw;
         }
+
 
         .footer{
             flex-direction: column-reverse;
