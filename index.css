@@ -10,10 +10,10 @@
     }
     
     :root{
-        --bg-color: #fdfdfd;
-        --text-color:#333;
-        --main-color:#36b14b;
-        --white-color:#fdfdfd;
+        --bg-color: #000000;
+        --text-color:#ffabab;
+        --main-color: rgb(249, 249, 249);
+        --white-color:#000000;
         --shadow-color:rgba(0,0,0,.2);
     }
     
@@ -181,23 +181,7 @@
         animation: professionRotate 10s ease-out infinite;
     }
     
-    @keyframes professionRotate {
-        0%,20% {
-            transform: rotate(0deg);
-        }
-        25%,45% {
-            transform: rotate(-90deg);
-        }
-        50%,70% {
-            transform: rotate(-180deg);
-        }
-        75%,95% {
-            transform: rotate(-2700deg);
-        }
-        100% {
-            transform: rotate(-3600deg);
-        }
-    }
+  
     .home .profession-box .profession{
         position: absolute;
         left: 0;
